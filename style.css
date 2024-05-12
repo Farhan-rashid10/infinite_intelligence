@@ -136,9 +136,77 @@ align-items: center;
     color: blue;
 
 }
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between cards */
+    
+}
+
+.vision-card {
+    width: 18rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px; /* Adjust spacing between cards */
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: white;
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
->>>>>>> b6b076ac69e779598dd8270491a9b5605894ef08
+.card {
+    width: 300px; 
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+
+}
+
+.card-body {
+    padding: 20px;
+    color: white;
+    font-size: larger;
+    padding-top: 60px;  
+
+}
+
+.card-title {
+    font-size: 20px;
+    color:black;
+}
+
+.card-text {
+    color:;
+}
+
+ul.card-text {
+    padding-left: 20px; 
+}
+
+.card-text li {
+    margin-bottom: 8px; 
+}
+
+.card-text li:last-child {
+    margin-bottom: 0; 
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: white;
+    margin-top: 0;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 
    
 
