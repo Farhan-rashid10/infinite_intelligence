@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins' sans-serif;
-    
+
 }
 .header{
     background-color: #008800;
@@ -69,6 +69,7 @@
     opacity: 0.4;
 
 }
+
 .sec-1 {
     background-image: url(pexels-yankrukov-8199562.jpg);
     background-size: cover;
@@ -115,6 +116,29 @@ align-items: center;
     padding-bottom: 5px;
    
 }
+.home img {
+    width: 50%;
+
+}
+
+
+.n h3 {
+    background-image: url(premium_photo-1682284353484-4e16001c58eb.avif);
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: cover;
+    padding-left: 400px;
+    padding-right: 400px;
+    color: blue;
+
+}
+
+
+>>>>>>> b6b076ac69e779598dd8270491a9b5605894ef08
 
    
 
