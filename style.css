@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins' sans-serif;
+    
 }
 .header{
     background-color: #008800;
@@ -67,6 +68,52 @@
 .btn-1 a:hover{
     opacity: 0.4;
 
+}
+.sec-1 {
+    background-image: url(pexels-yankrukov-8199562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 75vh; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+.index-page h2{
+    color: rgb(0, 4, 255);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    opacity: 1;
+    text-transform: lowercase;
+
+
+
+}
+.index-page p{
+    font-size:25px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 1;
+    text-transform: lowercase;
+    color: white;
+    width: 445px;
+    
+}
+.btn-3{
+padding-top: 300px;
+align-items: center;
+
+}
+.btn-3 a{
+    color: blue;
+    border: none;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
 }
 
    
