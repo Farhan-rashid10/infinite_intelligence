@@ -138,7 +138,8 @@ align-items: center;
 }
 .container {
     display: flex;
-    justify-content: space-between; /* Adjust spacing between cards */
+    justify-content: space-between; 
+    transform: scale(1.05);
     
 }
 
@@ -147,7 +148,8 @@ align-items: center;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 10px; /* Adjust spacing between cards */
+    margin-left: 10px;
+    transform: scale(1.05);
 }
 .card-container {
     display: flex;
@@ -157,6 +159,9 @@ align-items: center;
     margin-top: 40px;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    
+
 }
 
 
@@ -165,6 +170,7 @@ align-items: center;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
+    
 
 }
 
@@ -206,6 +212,87 @@ ul.card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+    .map {
+        position: relative;
+        width: 100%;
+        max-width: 600px; 
+        margin: 0 auto;
+        border-radius: 10px;
+        overflow: hidden;
+ 
+      }
+      
+      .map iframe {
+        width: 100%;
+        min-height: 100%;
+        border: 0;
+        
+      }
+      .map-section{
+        margin-top: 30px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+    
+      .container-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px; 
+        background-color: white;
+        margin-top: 0;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    
+      .card {
+        max-width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        show
+      }
+    
+      .card:hover{
+        transform: scale(1.05);
+      }
+    
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+      }
+    
+      .card-content {
+        padding: 20px;
+      }
+    
+      h3 {
+        margin-top: 0;
+      }
+    
+      p {
+        margin-bottom: 0;
+      }
+      .unique{
+        color: #008800;
+        text-align: center;
+        margin-top: 30px;
+      }
+      #about{
+        padding: 5px;
+      }
+     
+      
+      
+    
+
 
 
    
