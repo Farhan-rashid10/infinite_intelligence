@@ -445,7 +445,40 @@ footer{
     text-align: center;
     background-color: #4e4a4a;
     
+
 }
+#sec{
+    text-align: center;
+    color: #fff;
+    background-color: green;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#sec-1{
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: start;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+#sec-2{
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: start;
+    padding-left: 400px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+}
+
      
       
       
