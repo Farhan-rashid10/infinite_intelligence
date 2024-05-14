@@ -8,7 +8,6 @@
     background-color: #008800;
     width: 100%;
     padding: 20px 2%;
-   
 
     
     
@@ -19,9 +18,6 @@
     text-decoration: none;
     justify-content: space-between;
     padding-bottom: 28px;
-
-   
-    
       
 }
 .nav-bar a{
@@ -449,21 +445,39 @@ footer{
     text-align: center;
     background-color: #4e4a4a;
     
-}
-.jey{
-    width: 80%;
-    margin: 0 auto; 
-    font-family: Arial, sans-serif; 
-    font-size: 16px; 
-    line-height: 1.5; 
-    color: #333;   
-}
-.h-2{
-    color: #008800;
-    font-size: 38px;
-    text-align: center;
-}
 
+}
+#sec{
+    text-align: center;
+    color: #fff;
+    background-color: green;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#sec-1{
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: start;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+#sec-2{
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: start;
+    padding-left: 400px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+}
 
      
       
