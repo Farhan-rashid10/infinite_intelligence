@@ -34,9 +34,9 @@
     color: red;
     transform: scale(1.05);
     text-decoration: underline;
-   
-    
-
+}
+.active span{
+    text-decoration: underline;
 }
 
 .header img{
@@ -177,6 +177,10 @@ align-items: center;
     font-size: larger;
     padding-top: 60px;  
 
+}
+.card-body h5{
+    text-align: center;
+    font-weight: bold;
 }
 
 .card-title {
@@ -647,6 +651,30 @@ h2{
     text-align: center;
     margin-left: 88px;
 }
+
+.container-pic{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 100px;
+
+}
+.card-pic{
+    width:325px;
+    background-color:#f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba (0, 0, 0,0.2);
+    margin: 20px;
+}
+.card-pic img{
+    width:100%;
+    height: auto;
+}
+.card-content-pic{
+    padding:16px;
+ }
+
      
       
       
